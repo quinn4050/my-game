@@ -84,7 +84,7 @@ function draw() {
   }
 
   let fov = radians(60 + zoomAmount);
-  perspective(fov, width / height, 0.1, 2000);
+  perspective(fov, width / height, 0.1, 50000);
   
   let eyeY = player.Y - 30;
   camera(
@@ -103,7 +103,7 @@ function draw() {
   rotateX(HALF_PI);
   fill(124, 174, 81);
   noStroke();
-  rect(0, 0, 4000, 4000);
+  rect(0, 0, 10000, 10000);
   pop();
 
   push();
@@ -112,7 +112,7 @@ function draw() {
   stroke(255);
   strokeWeight(2);
   let gridSize = 100;
-  let gridExtent = 2000;
+  let gridExtent = 5000;
   for (let x = -gridExtent; x <= gridExtent; x += gridSize) {
     line(x, -gridExtent, x, gridExtent);
   }
