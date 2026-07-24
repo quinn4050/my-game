@@ -2,12 +2,11 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 32px;  /* ปรับขนาดความกว้างของเป้าตามต้องการ */
-  height: 32px; /* ปรับขนาดความสูงของเป้าตามต้องการ */
+  width: 32px;  
+  height: 32px;
   background-image: url('crosshair.png');
   background-size: contain;
   background-repeat: no-repeat;
-  /* ขยับจุดยึดกลับมาครึ่งหนึ่งเพื่อให้ตรงกลางหน้าจอเป๊ะๆ */
   transform: translate(-50%, -50%); 
-  pointer-events: none; /* ทำให้คลิกเมาส์ทะลุผ่านรูปนี้ไปโดนตัวเกมได้ */
+  pointer-events: none; 
 }
