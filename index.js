@@ -46,7 +46,7 @@ document.body.appendChild(levelEditter);
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight, WEBGL);
-  colorMode(RGBHDR);
+  colorMode(RGB);
 }
 
 function draw() {
