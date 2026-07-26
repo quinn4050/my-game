@@ -22,7 +22,7 @@ play.style.left =`${(window.innerWidth /2)+200}px`;
 play.style.zIndex = "10"; 
 
 play.onclick = function() {
-  window.location.href = ("game.html");
+  window.location.href = ("0.0.1/game.html");
 };
 document.body.appendChild(play);
 
